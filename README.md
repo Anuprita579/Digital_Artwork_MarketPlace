@@ -35,11 +35,11 @@ Welcome to Decentralized Digital Art Marketplace where artists can showcase and 
 * purchase_artwork : Purchase a artwork and transfer ownership.
 
 ### Screenshots
-![Screenshot 2023-12-24 002910](https://github.com/Anuprita579/Digital_Artwork_MarketPlace/assets/141035951/ece8a486-8088-4a72-900b-3d31f97a7f79)
-![Screenshot 2023-12-24 003331](https://github.com/Anuprita579/Digital_Artwork_MarketPlace/assets/141035951/0c87c87a-0946-4945-a408-aadcd5347b54)
-![Screenshot 2023-12-24 003415](https://github.com/Anuprita579/Digital_Artwork_MarketPlace/assets/141035951/b86afd85-bd1e-4d94-8589-744fab09f20f)
-![Screenshot 2023-12-24 003148](https://github.com/Anuprita579/Digital_Artwork_MarketPlace/assets/141035951/670a7592-0f46-4ffc-9fb6-f469e92f1625)
-
+### Screenshots
+<img src="https://github.com/Anuprita579/Digital_Artwork_MarketPlace/assets/141035951/ece8a486-8088-4a72-900b-3d31f97a7f79" alt="Screenshot 1" height="500px" width="300px">
+<img src="https://github.com/Anuprita579/Digital_Artwork_MarketPlace/assets/141035951/0c87c87a-0946-4945-a408-aadcd5347b54" alt="Screenshot 2" height="500px" width="300px">
+<img src="https://github.com/Anuprita579/Digital_Artwork_MarketPlace/assets/141035951/b86afd85-bd1e-4d94-8589-744fab09f20f" alt="Screenshot 3" height="500px" width="300px">
+<img src="https://github.com/Anuprita579/Digital_Artwork_MarketPlace/assets/141035951/670a7592-0f46-4ffc-9fb6-f469e92f1625" alt="Screenshot 4" height="500px" width="300px">
 
 ## Getting Started
 Follow these steps to set up the project locally.
