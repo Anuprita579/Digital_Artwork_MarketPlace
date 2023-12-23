@@ -38,6 +38,17 @@ async function main(feePayer: Keypair) {
     console.log("Artwork Minted:", newArtworkAccount.programId.toBase58());
     console.log("Artwork Details:", newArtworkAccount.data);
 
+    // Mock artwork details for testing
+    const dummyArtworkDetails = {
+        title: "Artwork Title",
+        description: "This is artwork description.",
+        price: 50,
+    };
+
+    console.log("Artwork Title:", dummyArtworkDetails.title);
+    console.log("Artwork Description:", dummyArtworkDetails.description);
+    console.log("Artwork Price:", dummyArtworkDetails.price);
+
     // Generate Keypair instances for buyer, seller, and fee payer
     const buyerKeypair = Keypair.generate();
     const sellerKeypair = Keypair.generate();
