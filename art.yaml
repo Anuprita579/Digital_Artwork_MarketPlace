@@ -1,0 +1,72 @@
+cidl: "0.8"
+info:
+  name: digital_art_marketplace
+  title: Digital Art Marketplace
+  version: 0.0.1
+  license:
+    name: Unlicense
+    url: Unlicense
+types:
+  artwork:
+    summary: Represents a digital artwork as an NFT.
+    solana:
+      owner: self
+      seeds:
+        - name: artwork
+        - name: creator
+          type: sol:pubkey
+    fields:
+      - name: title
+        type: string
+        solana:
+          attributes: [cap:50]
+        description: The title of the artwork.
+      - name: description
+        type: string
+        solana:
+          attributes: [cap:200]
+        description: A brief description of the artwork.
+      - name: price
+        type: u64
+        solana:
+          attributes: [init_if_needed]
+        description: The price of the artwork in SOL.
+      - name: creator
+        type: sol:pubkey
+        description: The Solana address of the artist.
+  custom_account_info:
+    summary: Represents Solana account information.
+    solana:
+      seeds:
+        - name: account_info
+    fields:
+      - name: lamports
+        type: u64
+        solana:
+          attributes: [mut]
+        description: The amount of lamports in the account.
+      - name: owner
+        type: sol:pubkey
+        description: The Solana address of the account owner.
+methods:
+  - name: mint_artwork
+    summary: Mint a new artwork as an NFT.
+    inputs:
+      - name: new_artwork
+        type: artwork
+        solana:
+          attributes: [init_if_needed]
+  - name: purchase_artwork
+    summary: Purchase an artwork and transfer ownership.
+    inputs:
+      - name: buyer_info
+        type: custom_account_info
+      - name: artwork_account_info
+        type: custom_account_info
+      - name: seller_info
+        type: custom_account_info
+      - name: fee_payer_info
+        type: custom_account_info
+      - name: artwork_id
+        type: u64
+        description: The ID of the artwork to be purchased.
