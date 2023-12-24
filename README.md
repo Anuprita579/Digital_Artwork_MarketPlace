@@ -8,6 +8,7 @@
   - [Functions](#functions)
   - [Screenshots](#screenshots)
 - [Getting Started](#getting-started)
+  - [Program ID](#program-id)
   - [Build and Deploy](#build-and-deploy)
   - [Frontend Testing](#frontend-testing)
 - [Output](#Output)
@@ -42,7 +43,8 @@ Welcome to Decentralized Digital Art Marketplace where artists can showcase and 
 
 ## Getting Started
 Follow these steps to set up the project locally.
-PROGRAM ID : 5Kpd48j4CGrU3qHohyuQVFmb63rkhK1BvxV15Cti6AUw
+
+#### PROGRAM ID : 5Kpd48j4CGrU3qHohyuQVFmb63rkhK1BvxV15Cti6AUw
 
 ### Build and Deploy
 * Build the contract
@@ -82,7 +84,7 @@ yarn install
 * Run app.ts 
   * Paste the following code in the terminal.
 ```
-npx ts-node app.ts 5Kpd48j4CGrU3qHohyuQVFmb63rkhK1BvxV15Cti6AUw
+npx ts-node app.ts <PROGRAM ID>
 ```
 
 ## OUTPUT
