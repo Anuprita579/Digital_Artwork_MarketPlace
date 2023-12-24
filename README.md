@@ -17,8 +17,8 @@ Welcome to Decentralized Digital Art Marketplace where artists can showcase and 
 
 #### Key Features:
 * Artwork Minting:
-   - Artists can mint their digital artwork as non-fungible tokens (NFTs) on the Solana blockchain.
-   - Each artwork gets a unique token ID and is stored on the blockchain.
+   - Artists can turn their digital art into special digital tokens (NFTs) using the Solana blockchain.
+   - Each piece of art gets a unique ID and is saved securely on the blockchain.
 * Artwork Showcase:
    - Users can browse and view the digital artwork listed on the marketplace.
    - Artwork details include the artwork title, description, and price.
@@ -27,7 +27,7 @@ Welcome to Decentralized Digital Art Marketplace where artists can showcase and 
    - Smart contracts handle the transparent and secure transfer of ownership.
 
 #### Why It's Unique:
-- NFTs and Digital Art: The project leverages the rising trend of non-fungible tokens (NFTs) and allows artists to tokenize their digital artwork on the Solana blockchain, providing a decentralized platform for art trading.
+- NFTs and Digital Art: The project leverages the rising trend of non-fungible tokens (NFTs) and allows artists to tokenize their digital artwork on the Solana blockchain, creating a safe and open place to buy and sell art.
 - Decentralized Transactions: Using Solana for transactions ensures a decentralized and secure environment for buying and selling digital art, without relying on traditional payment processors.
 
 ### Functions
