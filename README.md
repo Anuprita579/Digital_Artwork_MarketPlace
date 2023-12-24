@@ -84,7 +84,7 @@ yarn install
 * Run app.ts 
   * Paste the following code in the terminal.
 ```
-npx ts-node app.ts <PROGRAM ID>
+npx ts-node app.ts <PROGRAM_ID>
 ```
 
 ## OUTPUT
